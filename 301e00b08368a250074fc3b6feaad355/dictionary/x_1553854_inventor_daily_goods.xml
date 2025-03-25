@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6a0f44748368a250074fc3b6feaad343" label="Daily Goods" max_length="40" name="x_1553854_inventor_daily_goods" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="PurchaseDate" max_length="40" name="purchasedate" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="GoodsName" max_length="120" name="goodsname" type="string"/>
+    </element>
+</database>

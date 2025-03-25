@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Edit Button (Daily Goods)">345f0c748368a250074fc3b6feaad318</button>
+        <item_parameter display_value="Daily Goods sys_id">f05f0c748368a250074fc3b6feaad316</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 02:23:46</sys_created_on>
+        <sys_id>385f0c748368a250074fc3b6feaad31a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f05f0c748368a250074fc3b6feaad316</sys_name>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_385f0c748368a250074fc3b6feaad31a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-25 02:23:46</sys_updated_on>
+        <ui_parameter display_value="Sys ID">bc5f0c748368a250074fc3b6feaad318</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>
