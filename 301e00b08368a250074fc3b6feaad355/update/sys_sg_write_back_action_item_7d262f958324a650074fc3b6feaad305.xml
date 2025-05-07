@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>New</name>
+        <parameter_screen/>
+        <query_condition table="x_1553854_inventor_electronic_products">sys_idSTARTSWITH{{sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 07:19:20</sys_created_on>
+        <sys_id>7d262f958324a650074fc3b6feaad305</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New</sys_name>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_7d262f958324a650074fc3b6feaad305</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 07:19:21</sys_updated_on>
+        <table>x_1553854_inventor_electronic_products</table>
+        <template>category={{Electronic products category}}^compeleted={{Electronic products compeleted}}^durationofuse={{Electronic products durationofuse}}^insurance_agent={{Electronic products insurance_agent}}^outofwarrantyperiod={{Electronic products outofwarrantyperiod}}^price={{Electronic products price}}^productname={{Electronic products productname}}^productpicture={{Electronic products productpicture}}^purchasedate={{Electronic products purchasedate}}^target={{Electronic products target}}^unitpriceperday={{Electronic products unitpriceperday}}^EQ</template>
+        <type>new</type>
+        <use_current_record_as_condition>false</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=7d262f958324a650074fc3b6feaad305"/>
+</record_update>

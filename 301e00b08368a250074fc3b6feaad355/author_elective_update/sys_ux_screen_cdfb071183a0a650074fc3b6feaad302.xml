@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="Inventory List">90ca3b4583606650074fc3b6feaad3fa</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings/>
+        <macroponent display_value="List Menu Template Page">01fbc31183a0a650074fc3b6feaad3fd</macroponent>
+        <macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config>
+        <name>Expired List</name>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Expired List">85fbcbdd8360a650074fc3b6feaad30f</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 05:24:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cdfb071183a0a650074fc3b6feaad302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Expired List</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_update_name>sys_ux_screen_cdfb071183a0a650074fc3b6feaad302</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 05:24:53</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=cdfb071183a0a650074fc3b6feaad302"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Inventory List">301e00b08368a250074fc3b6feaad355</application>
+        <file_path/>
+        <instance_id>c11936db1b4ab51432182f8dee4bcb56</instance_id>
+        <instance_name>dev196672</instance_name>
+        <name>sys_ux_screen_cdfb071183a0a650074fc3b6feaad302</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="Inventory List">90ca3b4583606650074fc3b6feaad3fa</app_config><description/><disable_auto_reflow>false</disable_auto_reflow><event_mappings/><macroponent display_value="List Menu Template Page">01fbc31183a0a650074fc3b6feaad3fd</macroponent><macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config><name>Expired List</name><order>0</order><parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Expired List">85fbcbdd8360a650074fc3b6feaad30f</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-27 05:24:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cdfb071183a0a650074fc3b6feaad302</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Expired List</sys_name><sys_overrides/><sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package><sys_policy/><sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope><sys_update_name>sys_ux_screen_cdfb071183a0a650074fc3b6feaad302</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-27 05:24:53</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=cdfb071183a0a650074fc3b6feaad302"/></record_update>]]></payload>
+        <payload_hash>563013482</payload_hash>
+        <record_name>Expired List</record_name>
+        <reverted_from/>
+        <source>b87c8e3c83e0e250074fc3b6feaad35f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 05:24:53</sys_created_on>
+        <sys_id>91fb071183a0a650074fc3b6feaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195d60f79380000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 05:24:53</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>55fb071171a0a650048bc14f6d775a06</update_guid>
+        <update_guid_history>55fb071171a0a650048bc14f6d775a06:563013482</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 05:31:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>1975ceb3013644f0b0a528e345027100</sys_id>
+        <sys_metadata>cdfb071183a0a650074fc3b6feaad302</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Expired List</sys_name>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_scope_delete display_value="">3bb9b8961fe841f598561c0c95798211</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_cdfb071183a0a650074fc3b6feaad302</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_cdfb071183a0a650074fc3b6feaad302">91fb071183a0a650074fc3b6feaad307</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 05:31:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

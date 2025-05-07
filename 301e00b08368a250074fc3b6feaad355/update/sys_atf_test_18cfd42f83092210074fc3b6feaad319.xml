@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="ExpirationDate-Future">0bc714a783092210074fc3b6feaad334</copied_from>
+        <description>Test generated from template. To complete this test do the following:
+1. Create a user with specified roles and groups for impersonation.
+2. Insert a record to the table.
+3. Select a record and validate field values.
+4. Log an output.
+</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>ExpirationDate-Before</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-27 13:10:15</sys_created_on>
+        <sys_id>18cfd42f83092210074fc3b6feaad319</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ExpirationDate-Before</sys_name>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_update_name>sys_atf_test_18cfd42f83092210074fc3b6feaad319</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 13:10:30</sys_updated_on>
+        <test_origin>manual</test_origin>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=18cfd42f83092210074fc3b6feaad319"/>
+</record_update>

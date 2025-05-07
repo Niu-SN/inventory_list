@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="DELETE">
+        <name>purchasedate-FieldLabel</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 07:19:20</sys_created_on>
+        <sys_id>7926eb958324a650074fc3b6feaad34e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>purchasedate-FieldLabel</sys_name>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_7926eb958324a650074fc3b6feaad34e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 13:53:56</sys_updated_on>
+        <view_config display_value="Electronic products List Screen View Config">f926ab958324a650074fc3b6feaad3ff</view_config>
+        <view_template_slot display_value="text_04">564834a1832ca650074fc3b6feaad367</view_template_slot>
+    </sys_sg_view_config_element>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Inventory List">301e00b08368a250074fc3b6feaad355</application>
+        <file_path/>
+        <instance_id>c11936db1b4ab51432182f8dee4bcb56</instance_id>
+        <instance_name>dev196672</instance_name>
+        <name>sys_sg_view_config_element_7926eb958324a650074fc3b6feaad34e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element"><sys_sg_view_config_element action="INSERT_OR_UPDATE"><name>purchasedate-FieldLabel</name><sys_class_name>sys_sg_view_config_element</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-27 07:19:20</sys_created_on><sys_id>7926eb958324a650074fc3b6feaad34e</sys_id><sys_mod_count>2</sys_mod_count><sys_name>purchasedate-FieldLabel</sys_name><sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package><sys_policy/><sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope><sys_update_name>sys_sg_view_config_element_7926eb958324a650074fc3b6feaad34e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-27 13:53:56</sys_updated_on><view_config display_value="Electronic products List Screen View Config">f926ab958324a650074fc3b6feaad3ff</view_config><view_template_slot display_value="text_04">564834a1832ca650074fc3b6feaad367</view_template_slot></sys_sg_view_config_element></record_update>]]></payload>
+        <payload_hash>1793465848</payload_hash>
+        <record_name>purchasedate-FieldLabel</record_name>
+        <reverted_from/>
+        <source>b87c8e3c83e0e250074fc3b6feaad35f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 13:53:56</sys_created_on>
+        <sys_id>82708d61836ca650074fc3b6feaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195d7e1880c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 13:53:56</sys_updated_on>
+        <type>Card element</type>
+        <update_guid>c6708d61836ca65093ae676ccdddb685</update_guid>
+        <update_guid_history>c6708d61836ca65093ae676ccdddb685:1793465848,3371331d4b64a650c1d2c5e4586dc890:-1440777266,7126eb955b24a6506eb2e2e74aefcc50:-958319066</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 13:54:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_view_config_element">sys_sg_view_config_element</sys_db_object>
+        <sys_id>2689cf77aacc44238223ebb29f6cf4a1</sys_id>
+        <sys_metadata>7926eb958324a650074fc3b6feaad34e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>purchasedate-FieldLabel</sys_name>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_scope_delete display_value="">3bb9b8961fe841f598561c0c95798211</sys_scope_delete>
+        <sys_update_name>sys_sg_view_config_element_7926eb958324a650074fc3b6feaad34e</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_config_element_7926eb958324a650074fc3b6feaad34e">82708d61836ca650074fc3b6feaad386</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 13:54:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

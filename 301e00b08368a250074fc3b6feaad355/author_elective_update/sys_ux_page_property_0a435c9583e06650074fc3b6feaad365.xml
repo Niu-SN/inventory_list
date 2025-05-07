@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_footer</name>
+        <page display_value="test">2d43149583e06650074fc3b6feaad32d</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 15:58:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>0a435c9583e06650074fc3b6feaad365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_update_name>sys_ux_page_property_0a435c9583e06650074fc3b6feaad365</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-26 15:58:02</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1553854_inventor.2d43149583e06650074fc3b6feaad32d.root.global.chrome_footer</unique_name>
+        <value>{
+    "public_page": {
+        "enable_footer_topbar": false,
+        "footer_topbar_options": {},
+        "enable_footer_bar": false,
+        "footer_bar_options": {}
+    }
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=0a435c9583e06650074fc3b6feaad365"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Inventory List">301e00b08368a250074fc3b6feaad355</application>
+        <file_path/>
+        <instance_id>c11936db1b4ab51432182f8dee4bcb56</instance_id>
+        <instance_name>dev196672</instance_name>
+        <name>sys_ux_page_property_0a435c9583e06650074fc3b6feaad365</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_footer</name><page display_value="test">2d43149583e06650074fc3b6feaad32d</page><required_translations>[ ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-26 15:58:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>0a435c9583e06650074fc3b6feaad365</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_footer</sys_name><sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package><sys_policy/><sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope><sys_update_name>sys_ux_page_property_0a435c9583e06650074fc3b6feaad365</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-26 15:58:02</sys_updated_on><type>json</type><unique_name>x_1553854_inventor.2d43149583e06650074fc3b6feaad32d.root.global.chrome_footer</unique_name><value>{
+    "public_page": {
+        "enable_footer_topbar": false,
+        "footer_topbar_options": {},
+        "enable_footer_bar": false,
+        "footer_bar_options": {}
+    }
+}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=0a435c9583e06650074fc3b6feaad365"/></record_update>]]></payload>
+        <payload_hash>461481191</payload_hash>
+        <record_name>chrome_footer</record_name>
+        <reverted_from/>
+        <source>b87c8e3c83e0e250074fc3b6feaad35f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 15:58:02</sys_created_on>
+        <sys_id>0e435c9583e06650074fc3b6feaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195d32cc88a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-26 15:58:02</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>02435c9555e06650513baf2b74416567</update_guid>
+        <update_guid_history>02435c9555e06650513baf2b74416567:461481191</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 06:28:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>35386490eddc454895273172aef7b240</sys_id>
+        <sys_metadata>0a435c9583e06650074fc3b6feaad365</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_scope_delete display_value="">3bb9b8961fe841f598561c0c95798211</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_0a435c9583e06650074fc3b6feaad365</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_0a435c9583e06650074fc3b6feaad365">0e435c9583e06650074fc3b6feaad367</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 06:28:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

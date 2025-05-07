@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule_action">
+    <sys_sg_ui_rule_action action="DELETE">
+        <client_script/>
+        <operation display_value="Set UI Style">1fc6ba105b431010da168d8fa881c7bb</operation>
+        <order>10</order>
+        <sys_class_name>sys_sg_ui_rule_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 14:13:56</sys_created_on>
+        <sys_id>870501a9836ca650074fc3b6feaad351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_action_870501a9836ca650074fc3b6feaad351</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 14:13:56</sys_updated_on>
+        <target>Name</target>
+        <target_mapping/>
+        <ui_rule display_value="2">8f0501a9836ca650074fc3b6feaad34e</ui_rule>
+        <value>{"TextDecorator":{"Type":"Font","FontName":"now-mobile-icons-cards","Value":"e915","FontColor":""}}</value>
+    </sys_sg_ui_rule_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Inventory List">301e00b08368a250074fc3b6feaad355</application>
+        <file_path/>
+        <instance_id>c11936db1b4ab51432182f8dee4bcb56</instance_id>
+        <instance_name>dev196672</instance_name>
+        <name>sys_sg_ui_rule_action_870501a9836ca650074fc3b6feaad351</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule_action"><sys_sg_ui_rule_action action="INSERT_OR_UPDATE"><client_script/><operation display_value="Set UI Style">1fc6ba105b431010da168d8fa881c7bb</operation><order>10</order><sys_class_name>sys_sg_ui_rule_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-27 14:13:56</sys_created_on><sys_id>870501a9836ca650074fc3b6feaad351</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package><sys_policy/><sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope><sys_update_name>sys_sg_ui_rule_action_870501a9836ca650074fc3b6feaad351</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-27 14:13:56</sys_updated_on><target>Name</target><target_mapping/><ui_rule display_value="2">8f0501a9836ca650074fc3b6feaad34e</ui_rule><value>{"TextDecorator":{"Type":"Font","FontName":"now-mobile-icons-cards","Value":"e915","FontColor":""}}</value></sys_sg_ui_rule_action></record_update>]]></payload>
+        <payload_hash>-1782658964</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>b87c8e3c83e0e250074fc3b6feaad35f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 14:13:56</sys_created_on>
+        <sys_id>cb0501a9836ca650074fc3b6feaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195d7f3d5690000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 14:13:56</sys_updated_on>
+        <type>Mobile UI Rule Action</type>
+        <update_guid>cf0501a9ea6ca6506a7d2e9ce2b1c152</update_guid>
+        <update_guid_history>cf0501a9ea6ca6506a7d2e9ce2b1c152:-1782658964</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 14:19:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_ui_rule_action">sys_sg_ui_rule_action</sys_db_object>
+        <sys_id>811e09093b284156871684da29ad8dd1</sys_id>
+        <sys_metadata>870501a9836ca650074fc3b6feaad351</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_scope_delete display_value="">3bb9b8961fe841f598561c0c95798211</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_rule_action_870501a9836ca650074fc3b6feaad351</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_rule_action_870501a9836ca650074fc3b6feaad351">cb0501a9836ca650074fc3b6feaad353</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 14:19:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

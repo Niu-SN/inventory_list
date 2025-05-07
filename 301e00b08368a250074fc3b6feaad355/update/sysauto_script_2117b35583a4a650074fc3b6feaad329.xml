@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:30:00</entered_time>
+        <max_drift/>
+        <name>Daily </name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2025-03-27 08:33:19</run_start>
+        <run_time>1970-01-01 00:30:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var record = new GlideRecord('x_1553854_inventor_daily_goods');
+record.addQuery('u_boolean_1', '!=', true);
+record.addQuery('priority', '!=', 5);
+record.query();
+while (record.next()) {
+    var rightNow = new GlideDateTime();
+    var time = new GlideDateTime(record.expirationdate);
+    //var durationOfUse = gs.dateDiff(rightNow,record.purchasedate,true);
+    var dur = GlideDateTime.subtract(rightNow, time);
+    //gs.info("DueSoon NeedIt Task record = " + record.goodsname);
+    dur.getDisplayValue();
+    var du = dur.getRoundedDayPart();
+    //gs.info(du.getDisplayValue());
+    if (du < 30) {
+        record.priority = 1;
+    } else if (du < 90) {
+        record.priority = 2;
+    } else if (du < 180) {
+        record.priority = 3;
+    } else if (du > 180) {
+        record.priority = 4;
+    }
+    record.update();
+    //record.unitpriceperday=perday;
+	gs.eventQueue('x_1553854_inventor_daily_goods');
+    gs.info("set the priority to " + record.priority);
+
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 08:57:41</sys_created_on>
+        <sys_id>2117b35583a4a650074fc3b6feaad329</sys_id>
+        <sys_mod_count>60</sys_mod_count>
+        <sys_name>Daily </sys_name>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_update_name>sysauto_script_2117b35583a4a650074fc3b6feaad329</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 16:03:11</sys_updated_on>
+        <time_zone>floating</time_zone>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

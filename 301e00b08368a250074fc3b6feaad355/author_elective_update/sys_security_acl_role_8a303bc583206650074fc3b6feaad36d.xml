@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 13:24:50</sys_created_on>
+        <sys_id>8a303bc583206650074fc3b6feaad36d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1553854_inventor_repurchase.x_1553854_inventor.repurchase_user</sys_name>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_security_acl display_value="x_1553854_inventor_repurchase">42303bc583206650074fc3b6feaad36a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8a303bc583206650074fc3b6feaad36d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-26 13:24:50</sys_updated_on>
+        <sys_user_role display_value="x_1553854_inventor.repurchase_user" name="x_1553854_inventor.repurchase_user">753033c583206650074fc3b6feaad3a2</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Inventory List">301e00b08368a250074fc3b6feaad355</application>
+        <file_path/>
+        <instance_id>c11936db1b4ab51432182f8dee4bcb56</instance_id>
+        <instance_name>dev196672</instance_name>
+        <name>sys_security_acl_role_8a303bc583206650074fc3b6feaad36d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-26 13:24:50</sys_created_on><sys_id>8a303bc583206650074fc3b6feaad36d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1553854_inventor_repurchase.x_1553854_inventor.repurchase_user</sys_name><sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package><sys_policy/><sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope><sys_security_acl display_value="x_1553854_inventor_repurchase">42303bc583206650074fc3b6feaad36a</sys_security_acl><sys_update_name>sys_security_acl_role_8a303bc583206650074fc3b6feaad36d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-26 13:24:50</sys_updated_on><sys_user_role display_value="x_1553854_inventor.repurchase_user" name="x_1553854_inventor.repurchase_user">753033c583206650074fc3b6feaad3a2</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-922194751</payload_hash>
+        <record_name>x_1553854_inventor_repurchase.x_1553854_inventor.repurchase_user</record_name>
+        <reverted_from/>
+        <source>b87c8e3c83e0e250074fc3b6feaad35f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 13:24:50</sys_created_on>
+        <sys_id>8e303bc583206650074fc3b6feaad370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195d2a0878c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-26 13:24:50</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>82303bc5e22066500a5bd0eda665f670</update_guid>
+        <update_guid_history>82303bc5e22066500a5bd0eda665f670:-922194751</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1553854_inventor_repurchase.x_1553854_inventor.repurchase_user">ddc17b4983206650074fc3b6feaad30f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 13:31:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>14e2fbb5b7d249c49af2e76049416004</sys_id>
+        <sys_metadata>8a303bc583206650074fc3b6feaad36d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1553854_inventor_repurchase.x_1553854_inventor.repurchase_user</sys_name>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_parent display_value="">42303bc583206650074fc3b6feaad36a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_scope_delete display_value="">3bb9b8961fe841f598561c0c95798211</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_8a303bc583206650074fc3b6feaad36d</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_8a303bc583206650074fc3b6feaad36d">8e303bc583206650074fc3b6feaad370</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-26 13:31:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

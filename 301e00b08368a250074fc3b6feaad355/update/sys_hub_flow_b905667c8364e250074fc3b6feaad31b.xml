@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=149411000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Set reminder one day before ExpirationDate</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>set_reminder_one_day_before_expirationdate</internal_name>
+        <label_cache>[{"name":"850d235f-35e3-4cf6-9fed-891c6e6454fe.Record","label":"1 - Look Up Record➛Daily Goods Record","reference":"x_1553854_inventor_daily_goods","reference_display":"Daily Goods","type":"reference","base_type":"reference","usedInstances":{"e21a8888-ed67-4f3e-a4c8-6e97e23c6a14":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Daily_1.run_start_time","label":"Trigger - Run Daily ➛Run Start Time UTC","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"fd5fada4-9cee-40d7-9ea7-f9f2f1bde88d.Records","label":"1 - Look Up Records➛Daily Goods Records","reference":"x_1553854_inventor_daily_goods","reference_display":"Daily Goods Records","type":"records","base_type":"records","usedInstances":{"146cba93-fbfb-4919-b7e2-66766804ea40":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"146cba93-fbfb-4919-b7e2-66766804ea40.item","label":"2 - For Each➛Daily Goods Record","reference":"x_1553854_inventor_daily_goods","reference_display":"Daily Goods Record","type":"reference","base_type":"reference","usedInstances":{"8dcf2173-8d0f-47cb-99b0-186a40998098":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <master_snapshot>313b7e3c83e4e250074fc3b6feaad30a</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Set Expirated reminder</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>793b7e3c83e4e250074fc3b6feaad324</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 13:17:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b905667c8364e250074fc3b6feaad31b</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Set Expirated reminder</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_update_name>sys_hub_flow_b905667c8364e250074fc3b6feaad31b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-28 05:00:29</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=b905667c8364e250074fc3b6feaad31b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b905667c8364e250074fc3b6feaad31b"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <published_version/>
+        <run_period/>
+        <run_start>2025-03-25 14:54:47</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 14:54:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>793b7e3c83e4e250074fc3b6feaad324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-25 14:54:47</sys_updated_on>
+        <time>1970-01-01 09:00:00</time>
+        <timer_type>11</timer_type>
+        <trigger_definition/>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:793b7e3c83e4e250074fc3b6feaad324^sys_idNOT INb13b7e3c83e4e250074fc3b6feaad325"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <name>Trigger:793b7e3c83e4e250074fc3b6feaad324</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2025-03-25 14:54:47</run_start>
+        <run_time>1970-01-01 09:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('793b7e3c83e4e250074fc3b6feaad324');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 14:54:47</sys_created_on>
+        <sys_id>b13b7e3c83e4e250074fc3b6feaad325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-25 14:54:47</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">793b7e3c83e4e250074fc3b6feaad324</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=b905667c8364e250074fc3b6feaad31b"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=b905667c8364e250074fc3b6feaad31b"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b905667c8364e250074fc3b6feaad31b^sys_idNOT INf105667c8364e250074fc3b6feaad31e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b905667c8364e250074fc3b6feaad31b</id>
+        <name>Set reminder one day before ExpirationDate</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 13:17:50</sys_created_on>
+        <sys_id>f105667c8364e250074fc3b6feaad31e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-25 13:17:50</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f105667c8364e250074fc3b6feaad31e"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=b905667c8364e250074fc3b6feaad31b"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=b905667c8364e250074fc3b6feaad31b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b905667c8364e250074fc3b6feaad31b"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=b905667c8364e250074fc3b6feaad31b^sys_idNOT IN229aaa7483a4e250074fc3b6feaad348"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Set Expirated reminder">b905667c8364e250074fc3b6feaad31b</flow>
+        <name>Daily</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 13:42:11</sys_created_on>
+        <sys_id>229aaa7483a4e250074fc3b6feaad348</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 11:25:33</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/21SXU/cMBD8K5Wfj8i5A9rmrRI6qQ8FCU68IBRt7M3dSv7CcQ5SxH/vOjEnShvlZWd3Z2dGfngVBjo0ohE7sihWglzC6MDspoCM7g1pbNPSs+A0JB8n0aQ44kr00dsd2mAg8XAPZmDQR41RNLWUK3EEM+LdNPzUzMUMDmxmLXxzl8v6+1d5Jmv+v0jZyItGSu6qAxkd0Ynm4XElAkTeTZn59VOLMvkG9DlqJdVmzZ+U62/ndXe56eq13gDiBRN+cvq3lvQfvx+d4EtCp1GfbP4TRkTQN85Mp4kDZ7nYtvAy0G8sVBF7ZPEKl+apbDUNHOW0wOrgSeFNSOTdgiToTNlR3ozWXS8OuNbYw2jSfQmUkXFgPgxZc1ZRJPV3B/98+35wS242WJrGKzCnClKK1I0Jh5w4GrRM1FoIgdy+DdEfaV5mLbaaY6t645/56EB7V4HKwiuOCKot41czfA+RsotfTMPLb7P79mnMdxcfRXG7mOaBEsqW0JRHNKhIIf3gA8f3V/f2+AdliOkJygIAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=b905667c8364e250074fc3b6feaad31b^sys_idNOT INdbf5db5383c12210074fc3b6feaad3dd,dbf5db5383c12210074fc3b6feaad3e1"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Set Expirated reminder">b905667c8364e250074fc3b6feaad31b</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-27 07:47:58</sys_created_on>
+        <sys_id>dbf5db5383c12210074fc3b6feaad3dd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 17:42:03</sys_updated_on>
+        <ui_id>fd5fada4-9cee-40d7-9ea7-f9f2f1bde88d</ui_id>
+        <values>H4sIAAAAAAAA/9VXXU/bMBT9K12eNimqEtKWrm8TiGkPUAkQL4xZTuyk3lw7c5x+gPjvXMdOWtoCpes2eMz1/Tj3+pxb9/rOY8QbeP20EwQ47PYPgyCKgqDXixIcxnHUS+Ig7sSe7wk8puCpccwpfE4wL833DIXdbtTvdhATEyq0VIhgxucok5IU4EhYkXM8v3L+x+aw9dUdJiPGiaLCG1zf+F6OFRTRVHmDu5UjPc8p4jimHHJcGgytMwPI3xr/o+D1fkyB+hMJm1oqYrAEvkdnmgpCoVSKeUF9b4wFwdDsvLEoislQ8IVhxISGjJ5xnhXsFtL3A+OXUmgrofas+URuUNacjCRL6DDXTAprsUDtoeTlWJzZBsyIaYpLrusRg6UsIB/NDWYDwiFKL0Zyel4XPGGias8dcplg3nxhrRWLS00LcxeU0zEkQmOc50xkKFdywqpgwDJuZxw+2imXUyhasEy0cWKAt2FEuH0C9uPKfIUVM12cQhoIBkCMw20jO/RClqqaygQlvCyqA4VFYXN599Ws0O/SoLRdu/6QHRE4FIliuf4CARPqWrn3t6J4N1hQIpGCMFOzWOJ5iWIpOcUChR++l5CCaFXSH3SWM4WNM/RKq4PkJ55gi2SQFe2YZkwImNowvZQEzz9+WhfFfpPvJqqj5a63ndjG4E1jdPJ6ZHPyCvcmL4D7nwRmruvN6eslxdiGX5BNcvgsCbqL+y6k0shObkk362TfmaEnjHLyaO1vAa4OHhqyteL5U3gdQVNTY2X/H7z7/f8m6QmACLLzZoIzUf38AtD98DZ4fnl9XuFBdf0L1lY22LPr7MUtLVu3u2/Z6l5r/m4Bsg68AEStS4tyA/B6v9bpHXWjvVE3OngddYE413cN+mZqGwZcv7LM1dX+t8Yfr/oDu5YCwvubhvpHu9UMX1vzwNRc0Wb0KnEuM8ueHD9BsD2/4Z4Qm/831T2CUFcPWbGiKSMZ1YvqtReReor5r03njl2Nhqr2/vg92HlWe71woTPQAFK0gKtafhCG8NhYXw+hb827bYdvQtOsGt62EOvIUzxrnTcYNwJ3K4I1NRynO3t8f/2Ln7d68BvVU8//XfwB2pXCNw93zndFtw8AAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Set Expirated reminder">b905667c8364e250074fc3b6feaad31b</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>146cba93-fbfb-4919-b7e2-66766804ea40</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-27 07:47:58</sys_created_on>
+        <sys_id>dbf5db5383c12210074fc3b6feaad3e1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 17:42:03</sys_updated_on>
+        <ui_id>8dcf2173-8d0f-47cb-99b0-186a40998098</ui_id>
+        <values>H4sIAAAAAAAA/8WWyW7bMBCGX8XQ2TJE7c6tgJEiQJsAaZpLERBchgkBaolEJXENv3uHsrxmRZqmN3OkGc7/Dz/Rvxaelt6RF8tcyqkigSKEBCRISEhyyIGLLM0gzL2xV7IC8M0GRNVIXN8x07nAYkHiVHA2jXzFFffjKZn6HJP8NM3SNA9iYHEw0RaK5RLzpG5rw+aXQzpGxI02soHSO/p1NfZq1uBOFhrvaHHwyM5roIZxMJg4q0RXQGlHJzOs8VYV6+zztYxDWW4PXMuhOtUuiI9cP2TswYOFUgLupphpYewVrJTMVs18E2mAybPSbAM3urQrpQV7aPVvrB+F7j0FKE0MLmyWdHBobU6lBZzVVlflKmIZN2vnKtMV5elKgvMWFOuM3fG2a7Ee1K5n14RtOmxI/bip7s/X+x3rslc3dGsqwcxmxaxtNO8stG4cnb54yp5V+NuTgwED/YsFq2tdXtO6qe50vx92X0yuDS4mylT32Garr8sJE07qBE1lk2OMz/rwJWu00/0dy2Cy2/NnqW87OHGDlyTIomkg/CxMIj8OBPN5LrnPeKiSOE7zlBNv2XtMbzsnb+XW4Avtre19pf15wFdb0ejafsFm7mBwYzkeaMnJS+csCrfHaqfmlpgHSpIkypOY6vIOt68aKpk2c3pdVbJ9jMjMPRx9HR6+j5YL18jodNXIW0XsJT8jauBlLzbgEn4YLnnwf3AZOvp7Xvbs2cdlbzKfQovgHD/UMPUJF8KPM8j9PGSZD0kgIhVGQZCpV2l5jZH45eO1c6OUldVKC9aPbEtJEpIgEJDlSErofmexEhFPFTAmo1Q95qTF/kbwUOsG5Gi36ujd2GyGvrliXpe1zj3d1/W02gGfZmefgZ7oZXpWX/L33DXtvAX32aFQ4IeFrk7QM0QdaHierueK7iHHlAJhQVKlwUg8R7TP+YSLa891xBGrPQJxd9b/jsOLxwNvwdLBAOoKUFU1BXNj7LUc4ot/sCCLwtyfpiHiC1HicxlFPkGcARioUH7EZXf1ByrFIkYcCgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=b905667c8364e250074fc3b6feaad31b"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=b905667c8364e250074fc3b6feaad31b^sys_idNOT IN13f5db5383c12210074fc3b6feaad3e0"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">dff5db5383c12210074fc3b6feaad3de</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Set Expirated reminder">b905667c8364e250074fc3b6feaad31b</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-27 07:47:58</sys_created_on>
+        <sys_id>13f5db5383c12210074fc3b6feaad3e0</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-28 05:00:29</sys_updated_on>
+        <ui_id>146cba93-fbfb-4919-b7e2-66766804ea40</ui_id>
+        <values>H4sIAAAAAAAA/51SwW7bMAz9F50Tw3bSNM6twFCgh61AW/QyFAYtUYkwWVIlOalr+N9HxU469LiTzUfy8T2RA7NddF0ML/YuBLU3bPf7bcGUSRj9D8xAi2zHVMQ2sAU7gu5SPAxS3EgQsF5WHHG5zsXtskK4XcpKlrJoBG63IntCbr0I40itQgWnoX/9fwZ+UFp4nEU68KQtome74Vsq9g5rDQ1qGjQzUL8SFBaVkFWRV3xVblZlnpfbddFsVk1RihWg2FDdpfNhNv3tDRI7hf7KS5+koswXDD8iGoE0SIIOuGAtGAHR+p7tou8I8Aji0ej+WnFQJhIdS7UfQX0Sd5HnqVAiOeI4Ja9hPT/kBPODVRwfXVTWTEiERs893OquNb8m+WkFKKHT8bICQrpAfOiS5qRiliSfD/b0dBl4r8zZ35zUloO+RhCjV00XMaQ1oMaWiOoWnFNmXztvj+rcTFrabK8pyKS2Jxqazi0DnoRn9ESQ3RP+4wy/glfJxU+ioebx7L5+79LcycesuJ5MU0HgXrl4R3RHnMWNb+leJ6YwHYZArgINfEnYw+XKU6KnJSv+L3Sy/k+S+oWNfwFuxIz5LwMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b905667c8364e250074fc3b6feaad31b"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=b905667c8364e250074fc3b6feaad31b"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_b905667c8364e250074fc3b6feaad31b"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_b905667c8364e250074fc3b6feaad31b"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Set reminder one day before ExpirationDate</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>set_reminder_one_day_before_expirationdate</internal_name>
+        <label_cache>[{"name":"1a4a43ad-325d-4903-aaea-5cfa8bddae1f.item","label":"2 - For Each➛Daily Goods Record","reference":"x_1553854_inventor_daily_goods","reference_display":"Daily Goods","type":"reference","base_type":"reference","usedInstances":{"38924a13-e129-4766-803b-f9fc49b86b63":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"850d235f-35e3-4cf6-9fed-891c6e6454fe.Record","label":"1 - Look Up Record➛Daily Goods Record","reference":"x_1553854_inventor_daily_goods","reference_display":"Daily Goods","type":"reference","base_type":"reference","usedInstances":{"e21a8888-ed67-4f3e-a4c8-6e97e23c6a14":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"99697585-4359-4097-b01b-73ee60b0e446.Records","label":"1 - Look Up Records➛Daily Goods Records","reference":"x_1553854_inventor_daily_goods","reference_display":"Daily Goods","type":"records","base_type":"records","usedInstances":{"1a4a43ad-325d-4903-aaea-5cfa8bddae1f":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Daily_1.run_start_time","label":"Trigger - Run Daily ➛Run Start Time UTC","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{},"attributes":{"test_input_hidden":"true"}}]</label_cache>
+        <master>true</master>
+        <name>Set reminder one day before ExpirationDate</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Set Expirated reminder">b905667c8364e250074fc3b6feaad31b</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 14:54:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>313b7e3c83e4e250074fc3b6feaad30a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 06:48:02</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=313b7e3c83e4e250074fc3b6feaad30a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=313b7e3c83e4e250074fc3b6feaad30a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=313b7e3c83e4e250074fc3b6feaad30a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=313b7e3c83e4e250074fc3b6feaad30a^sys_idNOT INf93b7e3c83e4e250074fc3b6feaad30a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>313b7e3c83e4e250074fc3b6feaad30a</id>
+        <name>Set reminder one day before ExpirationDate</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 14:54:46</sys_created_on>
+        <sys_id>f93b7e3c83e4e250074fc3b6feaad30a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-25 14:54:46</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f93b7e3c83e4e250074fc3b6feaad30a"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=313b7e3c83e4e250074fc3b6feaad30a"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=313b7e3c83e4e250074fc3b6feaad30a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=313b7e3c83e4e250074fc3b6feaad30a"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=313b7e3c83e4e250074fc3b6feaad30a^sys_idNOT IN393b7e3c83e4e250074fc3b6feaad314"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Set reminder one day before ExpirationDate">313b7e3c83e4e250074fc3b6feaad30a</flow>
+        <name>Daily</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 14:54:46</sys_created_on>
+        <sys_id>393b7e3c83e4e250074fc3b6feaad314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-25 14:54:46</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/21SXU/cMBD8K5Wfj8i5o4XmDQmdxEOLVE68IBRt7M2dpfVHHecgIP4768ScWlrLLzvrnZ0Z+eFVEHRIohE7Y1GshHEJowPaTQEZ3ZPR2KalZ8FpSD5OoklxxJXoo7c7tIEg8eMeaGDQR41RNLWUK3EEGvFuGm40czGDA5tZC9/c5bL+fiHPZM33i6wbKflyVx0M6YhONA+PKxEg8mzKzK+fWiaTb0Cfo1ZSbdZ8pFxfntfdt01Xr/UGEL8y4Senf2tJ//H7pxN8Tug06pPNf8KICPrW0XR6ceAsF9sWngfzgoUqYo8sXuHSPJWtNgNHOS2wOnij8DYk492CJOiozChPo3U/Fwdca+xhpHRfAmVkHJgPQ9acVRRJ/d3BP/36WLg1bjZYmuQV0KmClKLpxoRDThwJLRO1FkIwbt+G6I9mHmYttppjq3ryT7x0MHtXgcrCK44Iqi3j1zN8D9FkFz+YhoffZvft7zHvXXwUxe1imh+UULYGqXyiQUUT0hUvOH78urfHd5inai/KAgAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=313b7e3c83e4e250074fc3b6feaad30a^sys_idNOT INb13b7e3c83e4e250074fc3b6feaad314,f13b7e3c83e4e250074fc3b6feaad313"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Set reminder one day before ExpirationDate">313b7e3c83e4e250074fc3b6feaad30a</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>1a4a43ad-325d-4903-aaea-5cfa8bddae1f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 14:54:46</sys_created_on>
+        <sys_id>b13b7e3c83e4e250074fc3b6feaad314</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 06:48:02</sys_updated_on>
+        <ui_id>38924a13-e129-4766-803b-f9fc49b86b63</ui_id>
+        <values>H4sIAAAAAAAA/+VVTW+bQBD9K9aebQsMRLZvVaxUldJESipf0ggN7OCstOzSZXFMLf/3DrDYll2liZSLVW47HztvHu/B05YJzuYsRO75M/8qDfwgmHjeZBr6yVWQ+BMeAKLPhkxBjlRpMNWG03kNsmoC260PIYQB8FEwifgonHnBCABhFKUZTBPOAf1sLCzmux31cVEWEuqla6dI+iIkN6jY/Ol5yAowNMmiYfPtSeq9UCUkKKn0ocd6it3WRXPmOq1yVDYWffDWdS5cZvBtQRlqauD43pDhxqLiSEAykCUOWQ6Kg9WmZnNrKgoYBH6vZL2veBHKdovmsCnFb5ocek1dhrRZ6kjYH2NHUBfOFmDhkW5ObWX2fGmRYtlxwjGDStrr41hXcF9YoVXXYiGRfbeWVa7uOkbY/oKj91GVBAKLZs8GebdW9viiXx96kDdCtZS4FaVOQe5PYK0RSWUbOFuGEluOcygKoVZxYfRatM0EJR+vJB3GmdSvNLMUKzWGtME9JlZhfEPxRRteghHNEt/pGmreDVlZl9cSyvKwCnEY/6oaJN1iboW4ZaGlIG6V0DSnRhT2C41aowO+GzozJNFbCktnB0Ed3XkwxCb2oyiYRmEs1JrGaxNzELKOV1rz8twBiyY5+OqSHzPDO6D2ZvjRSuDv0J0fzmK3x72Duy7h3BB9mhuml+QGt8bF2+FfJvAmb35mj5TU6r48MkBhhDbC1j8rzwt4dK7484KPqf4d2HrV3wiUra9OwfaSx5yQWYw78Ceyd8nB0iX3P4JP075/5bXPBTngv/kfPP8BMacneh4JAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Set reminder one day before ExpirationDate">313b7e3c83e4e250074fc3b6feaad30a</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 14:54:46</sys_created_on>
+        <sys_id>f13b7e3c83e4e250074fc3b6feaad313</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 06:48:02</sys_updated_on>
+        <ui_id>99697585-4359-4097-b01b-73ee60b0e446</ui_id>
+        <values>H4sIAAAAAAAA/+VXbWvbMBD+K8GfNgjBbl6a5dto6Bi0DbSlX7oiZFt2tCmSJ8l5ach/38mSHZO4XTJSaNlH3Z10z909jyw/rj0aeyNvmPR8Hwf94bnvd7u+Pxh0IxyEYXcQhX7YC722x/GMQKTGISOwnGOWm/USBf1+d9jvIcrnhGshUYwpW6FUiFhBYExVxvDqwcWPjbP1zTmjKWWxJNwbPT61vQxLSKKJ9EbrHdehKBkOCYPQewdzB7VeZdUSFT5ru6pva91Yh5CxgeK3PbLUhMcEMCSYKdL2ZpjHGGpdVRZJcDzhbGuYUq7hRM8ELxV9hrxD38QlBKqKiPVVS+T6ZM3JGGt8p2Ue6Vy60GgqaESU7UdMEpwzfVG32YBJpqngdost2+4WLJ/xG9sOrzqgHAtYcgUgSGYKNchdGcndVCxuS5SXlBc9cU4mIsyqFdZa0jDXBs/aI4zM4CA0w1lGeYoyKea02AxYZp2UwaKTMLGApIqmvIMjA7wDfcWdS7CPC/MDltRUcQ3HwGYARBkwBNkRKpHLopVzFLFcFQ6JubJneZu2p1bqgmGltpVDy9Hv3OC2fXAVI9s0syWSNNNf4Yg5ccVt2gcJpe9vKRcJHlODQtXUQpYZldhYoUzyI4dDop94jm3KUao6IUkp59CwSXIvYrz69HlfQ/94yinFVlRaiu2iXmpT+U52e7arpgOc7IKTyQ7q+EjCg+TvT3fHK8m24C9yis5fJVl/yyclpEa2lzU97WvjaJ4fAKHk+cQwsxWuXkLlaJ5QwuKmr8ulcex8Xc7+z6/LuyQ5AIqRnR7ljPLiqQBA34r9/utX7JcdnhX02nK/sMGdv68B3NKi9Xy0Eg6AUyrhDnK37i2eBojlfV9QZveuL41OAN2TCaB7dhoBrKsyq0Y29Lx8HZpplvHPJh7vxgMFaxuCTZPAjsoZHJvzbLMv4O5RCq6TzXrGL3DuxM/IFxTZfssrYApbXT5k9YsWNE6J3mYvo2KhF5j9avI7xqFyUEV5b/Ak7b0q20GwlSgoBUmiYHj1N2kAz6P9OyRoW/NxV8gBWMp2XONl67YC04jQXSOgdJIWs6nfI98rqyN574QPxnf7JS2H1ajBcmYf4k/udEJ4+gPwiNPuxhAAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=313b7e3c83e4e250074fc3b6feaad30a"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=313b7e3c83e4e250074fc3b6feaad30a^sys_idNOT INbd3b7e3c83e4e250074fc3b6feaad311"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e53b3e3c83e4e250074fc3b6feaad3da</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Set reminder one day before ExpirationDate">313b7e3c83e4e250074fc3b6feaad30a</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 14:54:46</sys_created_on>
+        <sys_id>bd3b7e3c83e4e250074fc3b6feaad311</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 06:48:02</sys_updated_on>
+        <ui_id>1a4a43ad-325d-4903-aaea-5cfa8bddae1f</ui_id>
+        <values>H4sIAAAAAAAA/51TXW+jMBD8L34miI+ElLxVrSpVurtKadWXUxUt9pJYZ2zONkk5lP9+60Bo1cc+wY53Z2cGMzDT+bbz7sXcOif3mm1+v0VM6oDR+8A0NMg2THpsHIvYEVQX6mEoy6Jcr25Wi2W+KhfLpFwvqiStFuscsUiqBJfLIt4iN1a485lGhXStgv71+wz8IJWwOIlswZI2j5Zthi9HUtCCtBR1mSYlz7Miz5Iku1mmVZFXaSZyQFEQoYIKFbU+Tu6+mPV9G0o7SpiAH9PMdkbpEURkScTw3aMWSOtrUA4j1oAW4I3t2cbbjgCLIJ606ueOg9Se6FjofXfyH21MkyQ01kiGOI6Hc7mbchzh+h48PBM1952dWvnBSI5ujEJgDZ3yd5+xseGp9dLoccRDpa7TRnWN/jUmwWaC62cjpHMkAttgNEiffNTPB3PaXlU+SH0JZTpUhoOaK/DeyqrzQc/AUGFDRLsG2lbq/a615igvw6SlifeKirhW5kRLwxWNgQfhMeUK8QPh9xf4FawMLn4SDQ2fI+Z6d6fAuQ8vFOLubxeUjM4mD7sxhjDCrWz9LS044iT3/BZu/cg9Z8qlIwkvAXu8/ivhoKcbJPln6GTsnyD+Azv/B/e5l0t1AwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=313b7e3c83e4e250074fc3b6feaad30a"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=313b7e3c83e4e250074fc3b6feaad30a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_313b7e3c83e4e250074fc3b6feaad30a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_313b7e3c83e4e250074fc3b6feaad30a"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>b905667c8364e250074fc3b6feaad31b</sys_id>
+        <latest_snapshot>313b7e3c83e4e250074fc3b6feaad30a</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch1-02-21-2025_03-05-2025_2133.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b905667c8364e250074fc3b6feaad31b^sys_idNOT IN3d3b7e3c83e4e250074fc3b6feaad326"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"3d3b7e3c83e4e250074fc3b6feaad326","name":"plan","plan_signature":null}}</plan>
+        <plan_id>b905667c8364e250074fc3b6feaad31b</plan_id>
+        <snapshot>537f67198364a650074fc3b6feaad354</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 14:54:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3d3b7e3c83e4e250074fc3b6feaad326</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 06:32:45</sys_updated_on>
+        <trigger display_value="">793b7e3c83e4e250074fc3b6feaad324</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=b905667c8364e250074fc3b6feaad31b"/>
+</record_update>

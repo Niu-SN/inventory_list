@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config>{
+    "listId": "list",
+    "5865e308432021105571609dc7b8f23b": {
+        "actionConfigId": null,
+        "allRecordsSelected": null,
+        "childrenRowLimit": null,
+        "columnLimit": null,
+        "columns": null,
+        "currentPage": null,
+        "enableBadgeCount": null,
+        "enableCellFiltering": null,
+        "enableColumnFiltering": null,
+        "enableColumnGrouping": null,
+        "enableColumnSorting": null,
+        "enableDeclarativeActions": null,
+        "enableDotWalk": null,
+        "enableInfiniteScroll": false,
+        "enableLiveList": false,
+        "enableQuickFormNavigation": true,
+        "enableReferenceLinks": null,
+        "enforceViewRulesForQuickForm": true,
+        "fetchHighlightedValues": true,
+        "filter": null,
+        "fixedFilter": null,
+        "groupBy": null,
+        "listId": null,
+        "listMenuConfigurationId": "d305c0a873601010a0a79329faf6a7cb",
+        "listTitle": null,
+        "listType": "withMenu",
+        "nestBy": null,
+        "onlyEnableSelectionWhenRequiredByActions": null,
+        "parentRecordSysId": null,
+        "parentTable": null,
+        "relatedListName": null,
+        "rowLimit": null,
+        "table": null,
+        "transformScriptArgs": null,
+        "transformScriptSysId": null,
+        "view": null
+    },
+    "table": "x_1553854_inventor_daily_goods",
+    "showTitle": "open it",
+    "listTitle": "DailyGoods",
+    "query": "",
+    "listView": ""
+}</macroponent_config>
+        <screen display_value="Daily Goods List">dc35c8d183a06650074fc3b6feaad399</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 14:56:28</sys_created_on>
+        <sys_id>5435c8d183a06650074fc3b6feaad39d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_5435c8d183a06650074fc3b6feaad39d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-26 15:50:08</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Inventory List">301e00b08368a250074fc3b6feaad355</application>
+        <file_path/>
+        <instance_id>c11936db1b4ab51432182f8dee4bcb56</instance_id>
+        <instance_name>dev196672</instance_name>
+        <name>sys_uib_screen_test_values_5435c8d183a06650074fc3b6feaad39d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent_config>{
+    "listId": "list",
+    "5865e308432021105571609dc7b8f23b": {
+        "actionConfigId": null,
+        "allRecordsSelected": null,
+        "childrenRowLimit": null,
+        "columnLimit": null,
+        "columns": null,
+        "currentPage": null,
+        "enableBadgeCount": null,
+        "enableCellFiltering": null,
+        "enableColumnFiltering": null,
+        "enableColumnGrouping": null,
+        "enableColumnSorting": null,
+        "enableDeclarativeActions": null,
+        "enableDotWalk": null,
+        "enableInfiniteScroll": false,
+        "enableLiveList": false,
+        "enableQuickFormNavigation": true,
+        "enableReferenceLinks": null,
+        "enforceViewRulesForQuickForm": true,
+        "fetchHighlightedValues": true,
+        "filter": null,
+        "fixedFilter": null,
+        "groupBy": null,
+        "listId": null,
+        "listMenuConfigurationId": "d305c0a873601010a0a79329faf6a7cb",
+        "listTitle": null,
+        "listType": "withMenu",
+        "nestBy": null,
+        "onlyEnableSelectionWhenRequiredByActions": null,
+        "parentRecordSysId": null,
+        "parentTable": null,
+        "relatedListName": null,
+        "rowLimit": null,
+        "table": null,
+        "transformScriptArgs": null,
+        "transformScriptSysId": null,
+        "view": null
+    },
+    "table": "x_1553854_inventor_daily_goods",
+    "showTitle": "open it",
+    "listTitle": "DailyGoods",
+    "query": "",
+    "listView": ""
+}</macroponent_config><screen display_value="Daily Goods List">dc35c8d183a06650074fc3b6feaad399</screen><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-26 14:56:28</sys_created_on><sys_id>5435c8d183a06650074fc3b6feaad39d</sys_id><sys_mod_count>5</sys_mod_count><sys_name/><sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package><sys_policy/><sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope><sys_update_name>sys_uib_screen_test_values_5435c8d183a06650074fc3b6feaad39d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-26 15:50:08</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>-320166846</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>b87c8e3c83e0e250074fc3b6feaad35f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 15:50:08</sys_created_on>
+        <sys_id>2e71d01583e06650074fc3b6feaad35e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195d3258d0f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-26 15:50:08</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>a271d015a0e06650d2d1c1263493035e</update_guid>
+        <update_guid_history>a271d015a0e06650d2d1c1263493035e:-320166846,fb01949144e066506f0ee5bf55c928ba:-1488369683,453fccdd6ca066509819361322dffe3b:854391553,850e889d66a06650154f02d522759170:33533652,1e0888d5bca06650874cb4cd98bf1fba:454912243,e435c8d1fda0665013710446dc636c9e:2033546853</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 15:55:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>f6ccadcba0d946d4a240ca9045125c31</sys_id>
+        <sys_metadata>5435c8d183a06650074fc3b6feaad39d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_scope_delete display_value="">3bb9b8961fe841f598561c0c95798211</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_5435c8d183a06650074fc3b6feaad39d</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_5435c8d183a06650074fc3b6feaad39d">2e71d01583e06650074fc3b6feaad35e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-26 15:55:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

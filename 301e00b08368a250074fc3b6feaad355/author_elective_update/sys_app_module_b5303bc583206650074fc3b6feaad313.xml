@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Repurchase">bd303bc583206650074fc3b6feaad30e</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Repurchases</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1553854_inventor_repurchase</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1553854_inventor.repurchase_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 13:24:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b5303bc583206650074fc3b6feaad313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Repurchases</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_update_name>sys_app_module_b5303bc583206650074fc3b6feaad313</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-26 13:24:49</sys_updated_on>
+        <timeline_page/>
+        <title>Repurchases</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Inventory List">301e00b08368a250074fc3b6feaad355</application>
+        <file_path/>
+        <instance_id>c11936db1b4ab51432182f8dee4bcb56</instance_id>
+        <instance_name>dev196672</instance_name>
+        <name>sys_app_module_b5303bc583206650074fc3b6feaad313</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Repurchase">bd303bc583206650074fc3b6feaad30e</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Repurchases</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1553854_inventor_repurchase</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1553854_inventor.repurchase_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-26 13:24:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b5303bc583206650074fc3b6feaad313</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Repurchases</sys_name><sys_overrides/><sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package><sys_policy/><sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope><sys_update_name>sys_app_module_b5303bc583206650074fc3b6feaad313</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-26 13:24:49</sys_updated_on><timeline_page/><title>Repurchases</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-612579836</payload_hash>
+        <record_name>Repurchases</record_name>
+        <reverted_from/>
+        <source>b87c8e3c83e0e250074fc3b6feaad35f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 13:24:49</sys_created_on>
+        <sys_id>f1303bc583206650074fc3b6feaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195d2a084bb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-26 13:24:49</sys_updated_on>
+        <type>Module</type>
+        <update_guid>b5303bc5b420665064a2b04accbb9b16</update_guid>
+        <update_guid_history>b5303bc5b420665064a2b04accbb9b16:-612579836</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Repurchases">d9c17b4983206650074fc3b6feaad333</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 13:31:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>a20c363437864be09a734f4b9ec6ba40</sys_id>
+        <sys_metadata>b5303bc583206650074fc3b6feaad313</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Repurchases</sys_name>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_scope_delete display_value="">3bb9b8961fe841f598561c0c95798211</sys_scope_delete>
+        <sys_update_name>sys_app_module_b5303bc583206650074fc3b6feaad313</sys_update_name>
+        <sys_update_version display_value="sys_app_module_b5303bc583206650074fc3b6feaad313">f1303bc583206650074fc3b6feaad317</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-26 13:31:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template_slot_attribute">
+    <sys_sg_view_template_slot_attribute action="DELETE">
+        <description>text_07_Typography</description>
+        <name display_value="Typography">30871ab9b701301096aa25efce11a925</name>
+        <sys_class_name>sys_sg_view_template_slot_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 13:18:11</sys_created_on>
+        <sys_id>964834a1832ca650074fc3b6feaad3ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>30871ab9b701301096aa25efce11a925</sys_name>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_update_name>sys_sg_view_template_slot_attribute_964834a1832ca650074fc3b6feaad3ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 13:18:11</sys_updated_on>
+        <translated_value/>
+        <value>Title 1</value>
+        <view_template_slot display_value="text_07">964834a1832ca650074fc3b6feaad399</view_template_slot>
+    </sys_sg_view_template_slot_attribute>
+    <sys_translated_text action="DELETE" query="documentkey=964834a1832ca650074fc3b6feaad3ab"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Inventory List">301e00b08368a250074fc3b6feaad355</application>
+        <file_path/>
+        <instance_id>c11936db1b4ab51432182f8dee4bcb56</instance_id>
+        <instance_name>dev196672</instance_name>
+        <name>sys_sg_view_template_slot_attribute_964834a1832ca650074fc3b6feaad3ab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template_slot_attribute"><sys_sg_view_template_slot_attribute action="INSERT_OR_UPDATE"><description>text_07_Typography</description><name display_value="Typography">30871ab9b701301096aa25efce11a925</name><sys_class_name>sys_sg_view_template_slot_attribute</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-27 13:18:11</sys_created_on><sys_id>964834a1832ca650074fc3b6feaad3ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>30871ab9b701301096aa25efce11a925</sys_name><sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package><sys_policy/><sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope><sys_update_name>sys_sg_view_template_slot_attribute_964834a1832ca650074fc3b6feaad3ab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-27 13:18:11</sys_updated_on><translated_value/><value>Title 1</value><view_template_slot display_value="text_07">964834a1832ca650074fc3b6feaad399</view_template_slot></sys_sg_view_template_slot_attribute><sys_translated_text action="delete_multiple" query="documentkey=964834a1832ca650074fc3b6feaad3ab"/></record_update>]]></payload>
+        <payload_hash>-68655226</payload_hash>
+        <record_name>30871ab9b701301096aa25efce11a925</record_name>
+        <reverted_from/>
+        <source>b87c8e3c83e0e250074fc3b6feaad35f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 13:18:11</sys_created_on>
+        <sys_id>9e4834a1832ca650074fc3b6feaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195d7c0cc760000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 13:18:11</sys_updated_on>
+        <type>Card template element attribute</type>
+        <update_guid>924834a1b72ca650b5166097bc8c92ad</update_guid>
+        <update_guid_history>924834a1b72ca650b5166097bc8c92ad:-68655226</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 13:20:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_view_template_slot_attribute">sys_sg_view_template_slot_attribute</sys_db_object>
+        <sys_id>7129a3b4cfce42a0a09da684c0a7a889</sys_id>
+        <sys_metadata>964834a1832ca650074fc3b6feaad3ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>30871ab9b701301096aa25efce11a925</sys_name>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_scope_delete display_value="">3bb9b8961fe841f598561c0c95798211</sys_scope_delete>
+        <sys_update_name>sys_sg_view_template_slot_attribute_964834a1832ca650074fc3b6feaad3ab</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_template_slot_attribute_964834a1832ca650074fc3b6feaad3ab">9e4834a1832ca650074fc3b6feaad3ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 13:20:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

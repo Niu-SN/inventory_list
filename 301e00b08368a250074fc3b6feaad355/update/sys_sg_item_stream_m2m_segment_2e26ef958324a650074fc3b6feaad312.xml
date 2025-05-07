@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment">
+    <sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE">
+        <item_stream display_value="Daily Goods Item Stream">ae26ef958324a650074fc3b6feaad311</item_stream>
+        <segment display_value="Daily Goods Item Stream Segment">9226ef958324a650074fc3b6feaad311</segment>
+        <sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 07:19:23</sys_created_on>
+        <sys_id>2e26ef958324a650074fc3b6feaad312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_segment_2e26ef958324a650074fc3b6feaad312</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 07:19:23</sys_updated_on>
+    </sys_sg_item_stream_m2m_segment>
+</record_update>

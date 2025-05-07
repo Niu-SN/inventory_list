@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="31accaf883e0e250074fc3b6feaad30b" label="Electronic products" max_length="40" name="x_1553854_inventor_electronic_products" type="collection">
+        <element label="OutOfWarrantyPeriod" max_length="40" name="outofwarrantyperiod" type="glide_date"/>
+        <element label="Price" max_length="40" name="price" type="float"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;  var dur = new GlideDateTime(current.durationofuse);&#13;&#10;  var per = dur.getDayPart();&#13;&#10;  current.unitpriceperday = per;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.unitpriceperday;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="UnitPricePerDay" max_length="40" name="unitpriceperday" type="float"/>
+        <element label="Insurance agent" max_length="120" name="insurance_agent" type="string"/>
+        <element attributes="target_field=percent_complete_target,target_threshold_colors=0:Salmon;33:Plum;66:violet;90:#90EE90" calculation="(function calculatedFieldValue(current) {&#13;&#10; current.compeleted =(current.target/current.unitpriceperday)*100;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.compeleted;// return the calculated value&#13;&#10;})(current);" label="%compeleted" max_length="15" name="compeleted" reference_qual="null" reference_qual_condition="null" type="percent_complete" virtual="true"/>
+        <element label="PurchaseDate" mandatory="true" max_length="40" name="purchasedate" type="glide_date"/>
+        <element choice="1" default="2" label="Category" max_length="32" name="category" read_only="true" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Daily" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Electronic" sequence="0" value="2"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var rightNow = new GlideDateTime();&#13;&#10;&#9;var time = new GlideDateTime(current.purchasedate);&#13;&#10;&#9;var dur = GlideDateTime.subtract(time,rightNow);&#13;&#10;&#9;current.durationofuse=dur;&#13;&#10;    //var time = current.purchasedate;&#13;&#10;    //var durationOfUse = gs.dateDiff(rightNow,record.purchasedate,true);&#13;&#10;    //current.durationofuse = current.purchasedate;&#13;&#10;    return current.durationofuse; // return the calculated value&#13;&#10;})(current);" label="DurationOfUse" max_length="40" name="durationofuse" type="glide_duration" virtual="true"/>
+        <element label="ProductName" mandatory="true" max_length="40" name="productname" type="string"/>
+        <element choice="3" default="30" label="PerDayTarget" mandatory="true" max_length="40" name="target" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="30" sequence="2" value="30"/>
+                <element inactive_on_update="false" label="10" sequence="1" value="10"/>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="category"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Inventory List">90ca3b4583606650074fc3b6feaad3fa</app_config>
+        <description/>
+        <extension_point/>
+        <fields>table</fields>
+        <icon/>
+        <name>Daily Goods List</name>
+        <optional_parameters>query,listView,listTitle</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>daily-goods-list</route_type>
+        <screen_type display_value="Daily Goods List">1435c8d183a06650074fc3b6feaad38c</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 14:56:28</sys_created_on>
+        <sys_id>5035c8d183a06650074fc3b6feaad38f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Daily Goods List</sys_name>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_update_name>sys_ux_app_route_5035c8d183a06650074fc3b6feaad38f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-26 15:48:53</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=5035c8d183a06650074fc3b6feaad38f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Inventory List">301e00b08368a250074fc3b6feaad355</application>
+        <file_path/>
+        <instance_id>c11936db1b4ab51432182f8dee4bcb56</instance_id>
+        <instance_name>dev196672</instance_name>
+        <name>sys_ux_app_route_5035c8d183a06650074fc3b6feaad38f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Inventory List">90ca3b4583606650074fc3b6feaad3fa</app_config><description/><extension_point/><fields>table</fields><icon/><name>Daily Goods List</name><optional_parameters>query,listView,listTitle</optional_parameters><order>0</order><parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent><parent_macroponent_composition_element_id/><route_type>daily-goods-list</route_type><screen_type display_value="Daily Goods List">1435c8d183a06650074fc3b6feaad38c</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-26 14:56:28</sys_created_on><sys_id>5035c8d183a06650074fc3b6feaad38f</sys_id><sys_mod_count>8</sys_mod_count><sys_name>Daily Goods List</sys_name><sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package><sys_policy/><sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope><sys_update_name>sys_ux_app_route_5035c8d183a06650074fc3b6feaad38f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-26 15:48:53</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=5035c8d183a06650074fc3b6feaad38f"/></record_update>]]></payload>
+        <payload_hash>-681024849</payload_hash>
+        <record_name>Daily Goods List</record_name>
+        <reverted_from/>
+        <source>b87c8e3c83e0e250074fc3b6feaad35f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 15:48:53</sys_created_on>
+        <sys_id>4431101583e06650074fc3b6feaad3bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195d32467960000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-26 15:48:53</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>44315cd17fe066504729a6c7a920ade9</update_guid>
+        <update_guid_history>44315cd17fe066504729a6c7a920ade9:-681024849,8eff4491bde066508111f2740d2ff0ea:224422575,3c6f8011c6e06650e93db82d12e6127d:-876882526,741e4cddc4a06650c39667f055c7f9de:284490945,c70d485d38a06650bf4e75f98f11bd7c:1310200834,839b801d09a06650563eb9f249c21ffd:1486025043,1469845944a066505d9e0f86ab6da1e0:1375712481,abd5c8153aa06650f12e047f0941451a:1486025043,5c35c8d16da0665050f7a961e6ede790:408193008</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 15:55:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>080bb8f58b8540b886d582ade7b40240</sys_id>
+        <sys_metadata>5035c8d183a06650074fc3b6feaad38f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Daily Goods List</sys_name>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_scope_delete display_value="">3bb9b8961fe841f598561c0c95798211</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_5035c8d183a06650074fc3b6feaad38f</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_5035c8d183a06650074fc3b6feaad38f">4431101583e06650074fc3b6feaad3bb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-26 15:55:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

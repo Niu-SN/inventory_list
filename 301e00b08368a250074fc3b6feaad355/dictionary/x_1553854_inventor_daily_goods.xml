@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="6a0f44748368a250074fc3b6feaad343" label="Daily Goods" max_length="40" name="x_1553854_inventor_daily_goods" type="collection">
+    <element audit="true" db_object_id="6a0f44748368a250074fc3b6feaad343" label="Daily Goods" max_length="40" name="x_1553854_inventor_daily_goods" type="collection">
+        <element label="ExpirationDate" mandatory="true" max_length="40" name="expirationdate" type="glide_date"/>
+        <element label="Repurchase Or Not" max_length="40" name="u_boolean_2" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="PurchaseDate" max_length="40" name="purchasedate" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="GoodsName" max_length="120" name="goodsname" type="string"/>
+        <element label="state" max_length="40" name="state" type="boolean"/>
+        <element attributes="target_threshold_colors=1:Salmon;2:Plum;3:violet;4:#90EE90" choice="1" default="4" label="Priority" max_length="40" name="priority" read_only="true" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1-Month Expiry Warning" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="No Expiration Risk" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="3-Month Expiry Warning" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Expired" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="6-Month Expiry Warning" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="UseCompleted" sequence="5" value="6"/>
+            </choice>
+        </element>
+        <element label="Send reminder" max_length="40" name="send_reminder" type="boolean"/>
+        <element label="UseCompleted" max_length="40" name="u_boolean_1" type="boolean"/>
+        <element choice="1" default="1" label="Category" max_length="32" name="category" read_only="true" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Electronic" sequence="0" value="2"/>
+                <element inactive_on_update="false" label="Daily" sequence="0" value="1"/>
+            </choice>
+        </element>
+        <element label="New Translated Text" max_length="40" name="u_translated_text_3" type="translated_text"/>
+        <element label="How you feel after using it" max_length="300" name="comment" type="string"/>
+        <element default="1" label="Count" max_length="40" name="count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="GoodsName" mandatory="true" max_length="120" name="goodsname" type="string"/>
+        <element label="Owner" mandatory="true" max_length="120" name="owner" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="category"/>
+        </index>
     </element>
 </database>

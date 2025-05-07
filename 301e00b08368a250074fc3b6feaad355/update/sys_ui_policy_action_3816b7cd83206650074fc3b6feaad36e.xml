@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_boolean_2</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 13:50:46</sys_created_on>
+        <sys_id>3816b7cd83206650074fc3b6feaad36e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_boolean_2</sys_name>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_update_name>sys_ui_policy_action_3816b7cd83206650074fc3b6feaad36e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-26 13:50:46</sys_updated_on>
+        <table>x_1553854_inventor_daily_goods</table>
+        <ui_policy display_value="Daily Goods show or hide comment field">eb5425cd83242650074fc3b6feaad3d9</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=3816b7cd83206650074fc3b6feaad36e"/>
+</record_update>

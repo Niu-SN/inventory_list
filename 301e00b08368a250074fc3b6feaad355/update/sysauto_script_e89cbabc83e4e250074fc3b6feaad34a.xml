@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 01:00:00</entered_time>
+        <max_drift/>
+        <name>Daily culac</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2025-03-25 15:00:42</run_start>
+        <run_time>1970-01-01 01:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[  var record = new GlideRecord('x_1553854_inventor_electronic_products');
+  record.query();
+    while(record.next()){
+	var rightNow = new GlideDateTime();
+	var time = new GlideDateTime(record.purchasedate);
+	//var durationOfUse = gs.dateDiff(rightNow,record.purchasedate,true);
+	var dur = GlideDateTime.subtract(time,rightNow);
+    gs.info("DueSoon record = " + record.productname);
+	record.durationofuse=dur;
+	var du = dur.getDayPart();
+	var perday = record.price;
+	var avg = perday/du;
+	record.unitpriceperday=avg;
+	//record.unitpriceperday=perday;
+	gs.info(dur.getDisplayValue());
+	record.update();
+  }
+  
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 15:23:01</sys_created_on>
+        <sys_id>e89cbabc83e4e250074fc3b6feaad34a</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>Daily culac</sys_name>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_update_name>sysauto_script_e89cbabc83e4e250074fc3b6feaad34a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 09:44:33</sys_updated_on>
+        <time_zone>floating</time_zone>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

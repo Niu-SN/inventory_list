@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="3a2623d58324a650074fc3b6feaad38f Item Stream">722623d58324a650074fc3b6feaad393</item_stream>
+        <master_item display_value="Expried Items Form Screen Master Item">fa2623d58324a650074fc3b6feaad394</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 07:19:24</sys_created_on>
+        <sys_id>ba2623d58324a650074fc3b6feaad395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_ba2623d58324a650074fc3b6feaad395</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 07:19:24</sys_updated_on>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="Electronic products Data Item">3926ab958324a650074fc3b6feaad3fe</data_item>
+        <interleaved_field/>
+        <name>7926eb958324a650074fc3b6feaad3f6 Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 07:19:20</sys_created_on>
+        <sys_id>7d26eb958324a650074fc3b6feaad3fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7926eb958324a650074fc3b6feaad3f6 Item Stream</sys_name>
+        <sys_package display_value="Inventory List" source="x_1553854_inventor">301e00b08368a250074fc3b6feaad355</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory List">301e00b08368a250074fc3b6feaad355</sys_scope>
+        <sys_update_name>sys_sg_item_stream_7d26eb958324a650074fc3b6feaad3fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 07:19:20</sys_updated_on>
+        <table/>
+    </sys_sg_item_stream>
+</record_update>
